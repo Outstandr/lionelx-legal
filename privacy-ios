@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Lionel X</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: #0a0a0a;
+            color: #e5e5e5;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 28px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #22c55e;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #22c55e;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p, li {
+            color: #a3a3a3;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        .last-updated {
+            color: #737373;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .section {
+            background-color: #171717;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #262626;
+        }
+        .highlight {
+            color: #22c55e;
+        }
+        .warning {
+            color: #ef4444;
+        }
+        .contact-box {
+            background-color: #1a2e1a;
+            border: 1px solid #22c55e;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        a {
+            color: #22c55e;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .permission-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .permission-table th, .permission-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #262626;
+        }
+        .permission-table th {
+            color: #22c55e;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lionel X Privacy Policy</h1>
+    <p class="last-updated">Last Updated: January 2026</p>
+
+    <div class="section">
+        <p>LEADERS PERFORMANCE MANAGEMENT CONSULTANCIES L.L.C ("we", "our", or "us") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information when you use our <strong>Lionel X</strong> mobile application.</p>
+    </div>
+
+    <div class="section">
+        <h2>1. Data We Collect</h2>
+        <p>We collect the following information to provide our services:</p>
+        <ul>
+            <li><strong>Email address</strong> – for account authentication</li>
+            <li><strong>Display name</strong> – for leaderboards</li>
+            <li><strong>Step count, distance, and calories</strong> – READ-only from Health Connect (Android) / Apple Health (iOS)</li>
+            <li><strong>GPS location</strong> – foreground only, during active tracking sessions</li>
+            <li><strong>Device push notification tokens</strong> – for reminders</li>
+        </ul>
+        <p>All data is stored securely and encrypted in transit.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. Health Data (Read-Only)</h2>
+        <p>We integrate with Health Connect (Android) and Apple Health (iOS) to <strong>READ</strong> the following data:</p>
+        <ul>
+            <li class="highlight">✅ Step Count (READ only)</li>
+            <li class="highlight">✅ Distance (READ only)</li>
+            <li class="highlight">✅ Active Calories Burned (READ only)</li>
+        </ul>
+        <p><strong>What we DO NOT access:</strong></p>
+        <ul>
+            <li class="warning">❌ Heart rate data</li>
+            <li class="warning">❌ Weight or body measurements</li>
+            <li class="warning">❌ Sleep data</li>
+            <li class="warning">❌ Any WRITE permissions</li>
+        </ul>
+        <p>We never write data back to your health apps.</p>
+    </div>
+
+    <div class="section">
+        <h2>3. Location Data (Foreground Only)</h2>
+        <p>GPS location is collected <strong>ONLY</strong> during active walking sessions when the app is open.</p>
+        <ul>
+            <li>GPS tracking pauses if you minimize the app or lock the screen</li>
+            <li>We do <strong>NOT</strong> track location in the background</li>
+            <li>Route data is retained for 90 days, then automatically deleted</li>
+        </ul>
+        <p><strong>Permissions requested:</strong></p>
+        <ul>
+            <li>ACCESS_FINE_LOCATION (foreground only)</li>
+            <li>ACCESS_COARSE_LOCATION (foreground only)</li>
+        </ul>
+        <p>We do <strong class="warning">NOT</strong> request ACCESS_BACKGROUND_LOCATION.</p>
+    </div>
+
+    <div class="section">
+        <h2>4. How We Use Your Data</h2>
+        <p>Your data is used exclusively for:</p>
+        <ul>
+            <li>Displaying your step counts and progress</li>
+            <li>Recording GPS routes during active sessions</li>
+            <li>Calculating streaks and achievements</li>
+            <li>Showing your position on leaderboards</li>
+            <li>Sending goal reminders (if enabled)</li>
+        </ul>
+        <p><strong>We never sell your data or share it with third parties for advertising.</strong></p>
+    </div>
+
+    <div class="section">
+        <h2>5. Data Security</h2>
+        <p>We take security seriously:</p>
+        <ul>
+            <li>All data is encrypted in transit using TLS</li>
+            <li>Data is stored on secure, encrypted servers</li>
+            <li>Authentication uses industry-standard protocols</li>
+            <li>Row-Level Security (RLS) enforces data isolation</li>
+            <li>We regularly audit our security practices</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>6. iOS Permissions</h2>
+        <table class="permission-table">
+            <tr>
+                <th>Permission</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td>HealthKit (Read)</td>
+                <td>Read steps, distance, calories from Apple Health</td>
+            </tr>
+            <tr>
+                <td>Location (When In Use)</td>
+                <td>GPS route tracking during active sessions</td>
+            </tr>
+            <tr>
+                <td>Motion & Fitness</td>
+                <td>Real-time step counting via pedometer</td>
+            </tr>
+            <tr>
+                <td>Notifications</td>
+                <td>Daily goal reminders</td>
+            </tr>
+        </table>
+        <p><strong>We DO NOT request:</strong> Background Location, HealthKit Write, Camera, Microphone, or Contacts.</p>
+    </div>
+
+    <div class="section">
+        <h2>7. Android Permissions</h2>
+        <table class="permission-table">
+            <tr>
+                <th>Permission</th>
+                <th>Purpose</th>
+            </tr>
+            <tr>
+                <td>ACCESS_FINE_LOCATION</td>
+                <td>GPS route tracking (foreground only)</td>
+            </tr>
+            <tr>
+                <td>ACTIVITY_RECOGNITION</td>
+                <td>Step counting</td>
+            </tr>
+            <tr>
+                <td>health.READ_STEPS</td>
+                <td>Read steps from Health Connect</td>
+            </tr>
+            <tr>
+                <td>health.READ_DISTANCE</td>
+                <td>Read distance from Health Connect</td>
+            </tr>
+            <tr>
+                <td>health.READ_ACTIVE_CALORIES_BURNED</td>
+                <td>Read calories from Health Connect</td>
+            </tr>
+            <tr>
+                <td>POST_NOTIFICATIONS</td>
+                <td>Send reminders</td>
+            </tr>
+        </table>
+        <p><strong>We DO NOT request:</strong> ACCESS_BACKGROUND_LOCATION or any health WRITE permissions.</p>
+    </div>
+
+    <div class="section">
+        <h2>8. Data Retention</h2>
+        <ul>
+            <li>Account data is retained while your account is active</li>
+            <li>Location/route data is automatically deleted after 90 days</li>
+            <li>You can delete your account and all data at any time</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>9. Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li><strong>Access</strong> – Request a copy of your data</li>
+            <li><strong>Delete</strong> – Delete your account and all associated data</li>
+            <li><strong>Export</strong> – Download your data in a portable format</li>
+            <li><strong>Opt-out</strong> – Disable notifications or leaderboard visibility</li>
+        </ul>
+        <p>To exercise these rights, use the Privacy & Security settings in the app or contact us.</p>
+    </div>
+
+    <div class="section">
+        <h2>10. Children's Privacy</h2>
+        <p>Lionel X is not intended for children under 13. We do not knowingly collect personal information from children under 13.</p>
+    </div>
+
+    <div class="section">
+        <h2>11. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.</p>
+    </div>
+
+    <div class="contact-box">
+        <h2>12. Contact Us</h2>
+        <p>If you have questions about this privacy policy or your data:</p>
+        <p><strong>Organization:</strong> LEADERS PERFORMANCE MANAGEMENT CONSULTANCIES L.L.C</p>
+        <p><strong>Address:</strong> Office 0363, Oud Al Muteena 3, Dubai, UAE</p>
+        <p><strong>Email:</strong> <a href="mailto:info@outstandr.com">info@outstandr.com</a></p>
+        <p style="margin-top: 15px; color: #737373;">We aim to respond within 48 hours.</p>
+    </div>
+
+    <p style="text-align: center; margin-top: 40px; color: #525252; font-size: 12px;">
+        © 2026 LEADERS PERFORMANCE MANAGEMENT CONSULTANCIES L.L.C. All rights reserved.<br>
+        Lionel X is developed by LEADERS PERFORMANCE MANAGEMENT CONSULTANCIES L.L.C.
+    </p>
+</body>
+</html>
